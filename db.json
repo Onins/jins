@@ -1,13 +1,21 @@
 {
+  "posts": [
+    { 
+      "id": 1,
+      "user": "Juan", 
+     "pass": "hehe" 
+    },
+     { 
+      "id": 2,
+      "user": "Pedro", 
+     "pass": "hoho" 
+    }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 },
+    { "id": 2, "body": "some comment", "postId": 1 }
+  ],
   "profile": {
-    "user1": {
-      "username": "hehe",
-      "password": "pass"
-    }
-    
-    "user2": {
-      "username": "hoho",
-      "password": "password"
-    }
+    "name": "onin"
   }
 }
